@@ -22,11 +22,20 @@ input {
   border-radius: 15px;
   color: #fff;
   margin-bottom: 20px;
+  position: relative;
   display: none;
 }
 
 .profile a {
   color: #fff;
+}
+
+.close_button {
+  position: absolute;
+  top: 14px;
+  right: 20px;
+  font-size: 20px;
+  text-decoration: none;
 }
 
 .profile .left {
